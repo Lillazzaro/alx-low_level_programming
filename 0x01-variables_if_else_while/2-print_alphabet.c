@@ -14,9 +14,10 @@ int main(void)
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
 
-putchar("\n", ch);
+putchar(ch);
 
 }
+putchar('\n')
 return (0);
 
 }

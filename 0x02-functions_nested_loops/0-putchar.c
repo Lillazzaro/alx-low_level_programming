@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *main - Print _putchar
- * 
- *Return: 0
+ * main - Prints _putchar
+ * Retuen: 0
  */
 
 int main(void)
@@ -19,4 +18,3 @@ int main(void)
 	_putchar('\n');
 return (0);
 }
-

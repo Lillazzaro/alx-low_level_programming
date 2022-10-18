@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints putchar then a new line
+ * main - prints _putchar
  * written by Omoroje Godspower
  * Return: 0
  */

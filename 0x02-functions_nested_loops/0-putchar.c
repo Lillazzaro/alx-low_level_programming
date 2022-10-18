@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - prints putchar then a new line
  * written by Omoroje Godspower

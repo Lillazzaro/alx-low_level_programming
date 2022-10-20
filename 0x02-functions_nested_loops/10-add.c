@@ -2,16 +2,17 @@
 
 /**
  * add - add two integers
+ * 
  * Return: 0
  */
 
-int add(int, int)
+int add(int)
 {
 	int a;
 	int b;
 	int c;
 
-	c = (a + b);
+	c = (a + b)
 	printf("%d\n", c);
 		return (0);
 }

@@ -8,10 +8,10 @@
 int add(int, int)
 {
 	int a;
-	int 89;
-	int 9;
+	int b;
+	int c;
 
-	a = add(89, 9);
-	printf("%d\n", a);
+	c = (a + b);
+	printf("%d\n", c);
 		return (0);
 }

@@ -2,13 +2,22 @@
 
 /**
  * jack_bauer -  prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
- * @a: int to represent time
- * Return: 0
  */
 
 void jack_bauer(void)
 {
-	if (a >= "00:00"; a = "23:59"; a++)
-		printf("%d\n");
-			return (0);
+	int hour, minute;
+
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (minute = 0; minute <= 59; minute++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }

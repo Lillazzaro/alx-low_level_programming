@@ -2,17 +2,12 @@
 
 /**
  * add - add two integers
- * 
- * Return: 0
+ * @num1: The first integer to be added
+ * @num2: The second integer to be added
+ * Return: result of addition
  */
 
-int add(int)
+int add(int num1, int num2)
 {
-	int a;
-	int b;
-	int c;
-
-	c = (a + b)
-	printf("%d\n", c);
-		return (0);
+	return (num1 + num2);
 }
